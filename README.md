@@ -1,8 +1,26 @@
 # AdaCubic  🚀
+Implementation of paper: "*AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning*", 
 
-AdaCubic optimizer implementation is designed to seamlessly integrate with PyTorch as a drop-in replacement for any existing optimizer. Simply by setting create_graph=True in the backward() call, you can enjoy its benefits without the need for additional adjustments.
+by Ioannis Tsingalis, Constantine Kotropoulos, and Corentin Briat, submitted in IEEE TSP in April 2024.
+
+## Paper Abstract
+
+A novel regularization technique called AdaCubic that adapts the weight of the cubic term is proposed. 
+At the heart of AdaCubic lies an auxiliary optimization problem with cubic constraints, employed to 
+dynamically adjust the weighting of the cubic term in Newton's cubic regularized method. To reduce the computation 
+costs, we utilize Hutchinson’s method to approximate the Hessian matrix. We demonstrate that AdaCubic 
+inherits the global and local convergence guarantees of the cubically regularized Newton method. Our experiments 
+in Computer Vision and Natural Language Processing tasks show that AdaCubic outperforms or performs 
+competitively with several widely used optimizers. Unlike other adaptive algorithms that require fine-tuning of 
+hyper-parameters, AdaCubic is evaluated with a pre-fixed set of hyper-parameters, making it a highly 
+attractive optimizer in situations where fine-tuning is not feasible. This makes AdaCubic convenient to 
+researchers and practitioners alike. To the best of our knowledge, AdaCubic is the first optimizer leveraging 
+the power of cubic regularization for large-scale applications
 
 ## Usage
+AdaCubic optimizer implementation is designed to seamlessly integrate with PyTorch as a drop-in replacement for any 
+existing optimizer. Simply by setting `create_graph=True` in the `backward()` call, you can enjoy its benefits without 
+the need for additional adjustments.
 
 ```python
 from AdaCubic import AdaCubic
@@ -66,3 +84,6 @@ runResNet.py --task cifar10 --optimizer AdaCubic --depth 20 --seed 45 --n_epochs
 ```angular2
 run_mlm_no_trainer.py --dataset_name wikitext --dataset_config_name wikitext-2-raw-v1 --model_name_or_path bert-base-uncased --optimizer AdaCubic --num_train_epochs 10 --seed 45 --output_dir /your_root/AdaCubic/Code/MLAlgorithms/LM/mlm/
 ```
+
+## Confidentiality Notice
+This implementation should be treated as confidential. The repository will be made public upon paper acceptance.

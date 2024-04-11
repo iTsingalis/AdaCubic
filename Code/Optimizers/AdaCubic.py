@@ -1,7 +1,10 @@
 """
-This module implements adaptive cubic regularization of Newton's method.
+This module implements the paper:
+AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning
 
-Implementation by Ioannis Tsingalis
+Implemented and reviewed by Ioannis Tsingalis and Constantine Kotropoulos, respectively.
+
+Corresponding mail:
 ioannis.tsingalis@gmail.com
 
 References:
