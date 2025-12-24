@@ -88,6 +88,6 @@ This implementation should be treated as confidential. The repository will be ma
 
 ## Disclaimer
 
-This repository is provided for **peer-review purposes only** in connection with the submission of the manuscript *“AdaCubic”*. 
+This repository is provided for **peer-review purposes only** in connection with the submission of the manuscript "*AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning*". 
 The code is shared to facilitate the review process and **must not be redistributed, modified, or made public** prior to the acceptance of the associated paper. Any use of this code outside the scope of peer review is not permitted at this stage. 
 Upon acceptance of the paper, the repository will be made publicly available under an appropriate open-source license.
