@@ -2,11 +2,6 @@
 This module implements the paper:
 AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning
 
-Implemented and reviewed by Ioannis Tsingalis and Constantine Kotropoulos, respectively.
-
-Corresponding mail:
-ioannis.tsingalis@gmail.com
-
 References:
     [1] Nesterov, Y., & Polyak, B. T. (2006). Cubic regularization of Newton method and its global performance.
     Mathematical Programming, 108(1), 177-205.

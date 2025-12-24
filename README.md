@@ -1,7 +1,5 @@
 # AdaCubic  🚀
-Implementation of paper: "*AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning*", 
-
-by Ioannis Tsingalis, Constantine Kotropoulos, and Corentin Briat, submitted in IEEE TSP in April 2024.
+Implementation of paper: "*AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning*", submitted in TMLR 2025.
 
 ## Paper Abstract
 
@@ -53,11 +51,11 @@ for i, (samples, labels) in enumerate(train_loader):
 | **Argument**                           | **Description**                                                                        |
 |:---------------------------------------|:---------------------------------------------------------------------------------------|
 | `params` (iterable)                    | A collection of parameters to optimize, or dictionaries defining parameter groups.     |
-| `eta1`(float, optional)                | Threshold related to the acceptance or rejection of the trial point *(default: 0.25)*  |
+| `eta1`(float, optional)                | Threshold related to the acceptance or rejection of the trial point *(default: 0.05)*  |
 | `eta1` (float, optional)               | Threshold related to the acceptance or rejection of the trial point *(default: 0.75)*  |
 | `alpha1` (float, optional)             | Constant that defined the portion of trust radius increase *(default: 2.5)*            |
 | `alpha2` (float, optional)             | Constant that defined the portion of trust radius decrease *(default: 0.25)*           |
-| `kappa_easy` (int, optional)           | The accuracy for the estimation of the root in Algorithm 2 *(default: 1)*              |
+| `kappa_easy` (int, optional)           | The accuracy for the estimation of the root in Algorithm 2 *(default: 0.01)*           |
 | `grad_tol` (float, optional)           | The accuracy of gradient to stop Algorithm 1 *(default: 1e-4)*                         |
 | `xi0` (float, optional)                | The size of the initial trust radius *(default: 0.05)*                                 |
 | `gamma1` (float, optional)             | The gamma1 parameter in the algorithm Chapter 17 in Conn's book *(default: 0.9)*       |
@@ -87,3 +85,9 @@ run_mlm_no_trainer.py --dataset_name wikitext --dataset_config_name wikitext-2-r
 
 ## Confidentiality Notice
 This implementation should be treated as confidential. The repository will be made public upon paper acceptance.
+
+## Disclaimer
+
+This repository is provided for **peer-review purposes only** in connection with the submission of the manuscript *“AdaCubic”*. 
+The code is shared to facilitate the review process and **must not be redistributed, modified, or made public** prior to the acceptance of the associated paper. Any use of this code outside the scope of peer review is not permitted at this stage. 
+Upon acceptance of the paper, the repository will be made publicly available under an appropriate open-source license.
