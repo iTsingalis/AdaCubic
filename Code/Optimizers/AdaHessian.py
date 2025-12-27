@@ -1,9 +1,20 @@
+"""
+This implementation is based on the AdaHessian optimizer.
+
+Reference:
+  D. Y. Kim et al., "ADAHESSIAN: An Adaptive Second Order Optimizer
+  for Machine Learning", NeurIPS 2020.
+
+Code reference:
+  https://github.com/davda54/ada-hessian
+
+"""
+
 import torch
 
 
 class AdaHessian(torch.optim.Optimizer):
     """
-    Implements the AdaHessian algorithm from "ADAHESSIAN: An Adaptive Second OrderOptimizer for Machine Learning"
     Arguments:
         params (iterable) -- iterable of parameters to optimize or dicts defining parameter groups
         lr (float, optional) -- learning rate (default: 0.1)
