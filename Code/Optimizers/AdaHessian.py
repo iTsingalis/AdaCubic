@@ -2,8 +2,7 @@
 This implementation is based on the AdaHessian optimizer.
 
 Reference:
-  D. Y. Kim et al., "ADAHESSIAN: An Adaptive Second Order Optimizer
-  for Machine Learning", NeurIPS 2020.
+  Yao et al., "AdaHessian: An Adaptive Second Order Optimizer for Machine Learning", AAAI 2021, https://doi.org/10.48550/arXiv.2006.00719
 
 Code reference:
   https://github.com/davda54/ada-hessian
