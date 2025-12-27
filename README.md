@@ -3,12 +3,16 @@ Implementation of paper: "*AdaCubic: An Adaptive Cubic Regularization Optimizer 
 
 ## Paper Abstract
 
-A novel regularization technique called AdaCubic is proposed that adapts the weight of the cubic term. The heart of AdaCubic is an auxiliary optimization problem with cubic constraints that dynamically adjusts the weight of the cubic term in Newton’s cubic regular-
-ized method. We utilize Hutchinson’s method to approximate the Hessian matrix, thereby reducing computation costs. We demonstrate that AdaCubic inherits the cubically regular-
-ized Newton method’s local convergence guarantees. Our experiments in Computer Vision, Natural Language Processing, and Signal Processing tasks demonstrate that AdaCubic out-
-performs or competes with several widely used optimizers. Unlike other adaptive algorithms that require fine-tuning of hyperparameters, AdaCubic is evaluated with a pre-fixed set of
-hyperparameters, making it a highly attractive optimizer in situations where fine-tuning is not feasible. This makes AdaCubic an attractive option for researchers and practitioners
-alike. To our knowledge, AdaCubic is the first optimizer to leverage cubic regularization in scalable deep learning applications. The code of AdaCubic will be publicly released upon
+A novel regularization technique called AdaCubic is proposed that adapts the weight of the cubic term. The heart of AdaCubic is 
+an auxiliary optimization problem with cubic constraints that dynamically adjusts the weight of the cubic term in Newton’s 
+cubic regularized method. We utilize Hutchinson’s method to approximate the Hessian matrix, thereby reducing computation costs. 
+We demonstrate that AdaCubic inherits the cubically regularized Newton method’s local convergence guarantees. Our experiments in 
+Computer Vision, Natural Language Processing, and Signal Processing tasks demonstrate that AdaCubic outperforms or 
+competes with several widely used optimizers. Unlike other adaptive algorithms that require fine-tuning of hyperparameters, 
+AdaCubic is evaluated with a pre-fixed set of hyperparameters, making it a highly attractive optimizer in situations where 
+fine-tuning is not feasible. This makes AdaCubic an attractive option for researchers and practitioners alike. 
+To our knowledge, AdaCubic is the first optimizer to leverage cubic regularization in scalable deep learning applications. 
+The code of AdaCubic will be publicly released upon
 paper acceptance.
 
 ## Usage
