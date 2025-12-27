@@ -1,9 +1,6 @@
 import os.path as path
 import os, sys
 
-# ROOT_DIR = os.path.abspath(os.curdir)
-#
-# sys.path.append('/media/data/tsingalis/cubicReg')
 
 import os
 

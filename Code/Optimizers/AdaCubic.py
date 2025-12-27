@@ -1,16 +1,33 @@
 """
-This module implements the paper:
-AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning
+
+##        ##
+##        ##
+##   ##   ##   ######    ## ####  ########   ## ########    ########
+##  ####  ##        ##   ###      ##     ##  ## ##     ##  ##     ##
+## ##  ## ##   #######   ##       ##     ##  ## ##     ##  ##     ##
+####    ####  ##    ##   ##       ##     ##  ## ##     ##  ##    ###
+###      ###   ##### ##  ##       ##     ##  ## ##     ##   ##### ##
+                                                                  ##
+                                                            #######
+
+This module implements the method proposed in
+"AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning".
+
+The code is provided solely for peer-review purposes in connection with the
+submission of the associated manuscript. It is intended to facilitate the
+evaluation of the proposed method and should not be redistributed, modified,
+or made publicly available prior to acceptance. Upon acceptance of the paper,
+the code will be released under an appropriate open-source license.
+
 
 References:
     [1] Nesterov, Y., & Polyak, B. T. (2006). Cubic regularization of Newton method and its global performance.
     Mathematical Programming, 108(1), 177-205.
-    [2] Cartis, C., Gould, N. I., & Toint, P. L. (2011). Adaptive cubic regularisation methods for unconstrained optimization.
+    [2] Cartis, C., Gould, N. I., & Toint, P. L. (2011). Adaptive cubic regularization methods for unconstrained optimization.
     Part I: motivation, convergence and numerical results. Mathematical Programming, 127(2), 245-295.
     [3] Conn, A. R., Gould, N. I., & Toint, P. L. (2000). Trust region methods (Vol. 1). Siam.
     [4] Gould, N. I., Lucidi, S., Roma, M., & Toint, P. L. (1999). Solving the trust-region subproblem using the Lanczos
     method. SIAM Journal on Optimization, 9(2), 504-525.
-    [5] https://github.com/iTsingalis/torch-trust-ncg
 """
 
 import torch
