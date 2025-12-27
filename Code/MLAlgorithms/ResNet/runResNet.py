@@ -28,7 +28,6 @@ total_timer = Timer()
 NUM_FEATURES = {
     'cifar10': 32 * 32,
     'cifar100': 32 * 32,
-    'imagenet': 84 * 84,
     'mnist': 28 * 28
 }
 
