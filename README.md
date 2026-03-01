@@ -1,5 +1,6 @@
 # AdaCubic  🚀
-Implementation of paper: "*AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning*", submitted in TMLR 2025.
+Implementation of the paper: "*[AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning](https://openreview.net/forum?id=pZBQ7J37lk)*", published in TMLR 2026, by
+Ioannis Tsingalis and Constantine Kotropoulos and Corentin Briat.
 
 ## Paper Abstract
 
@@ -86,8 +87,18 @@ run_mlm_no_trainer.py --dataset_name wikitext --dataset_config_name wikitext-2-r
 ## Confidentiality Notice
 This implementation should be treated as confidential. The repository will be made public upon paper acceptance.
 
-## Disclaimer
+## Citation
 
-This repository is provided for **peer-review purposes only** in connection with the submission of the manuscript "*AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning*". 
-The code is shared to facilitate the review process and **must not be redistributed, modified, or made public** prior to the acceptance of the associated paper. Any use of this code outside the scope of peer review is not permitted at this stage. 
-Upon acceptance of the paper, the repository will be made publicly available under an appropriate open-source license.
+```
+@article{
+    tsingalis2026adacubic,
+    title={AdaCubic: An Adaptive Cubic Regularization Optimizer for Deep Learning},
+    author={Ioannis Tsingalis and Constantine Kotropoulos and Corentin Briat},
+    journal={Transactions on Machine Learning Research},
+    issn={2835-8856},
+    year={2026},
+    url={https://openreview.net/forum?id=pZBQ7J37lk},
+    note={J2C Certification}
+}
+```
+
