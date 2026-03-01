@@ -84,9 +84,6 @@ runResNet.py --task cifar10 --optimizer AdaCubic --depth 20 --seed 45 --n_epochs
 run_mlm_no_trainer.py --dataset_name wikitext --dataset_config_name wikitext-2-raw-v1 --model_name_or_path bert-base-uncased --optimizer AdaCubic --num_train_epochs 10 --seed 45 --output_dir /your_root/AdaCubic/Code/MLAlgorithms/LM/mlm/
 ```
 
-## Confidentiality Notice
-This implementation should be treated as confidential. The repository will be made public upon paper acceptance.
-
 ## Citation
 
 ```
